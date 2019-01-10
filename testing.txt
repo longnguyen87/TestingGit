@@ -3,3 +3,11 @@ Using git log to display history of commit.
 Using get checkout and paste a copy of log # to get back to stage in that commit.
 To go back to the lastest commit, using git checkout master
 Git revert works similarly like git checkout, different is that git revert only go back to the most recent commit.
+
+### Git Ignore
+Git Ignore is used when you want git to ignore changes from some files that include in the same directory.
+First step: Create a .gitignore file
+Second: Open the .gitignore file, adding the file name including extension of files you want to ignore
+3rd:  Add and commit the .gitignore file/
+4th: Clear cached on your local computer. git rm -r --cached .
+After this, any changes on listed files will be ignored when call git status.
