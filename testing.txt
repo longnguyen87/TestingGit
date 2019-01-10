@@ -1,5 +1,5 @@
-Testing Testing
-fdafafafafafa
-adfafdafafafa
-
-This is the text after the second change
+Always commit new changes.
+Using git log to display history of commit.
+Using get checkout and paste a copy of log # to get back to stage in that commit.
+To go back to the lastest commit, using git checkout master
+Git revert works similarly like git checkout, different is that git revert only go back to the most recent commit.
